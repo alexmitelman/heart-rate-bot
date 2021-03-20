@@ -1,6 +1,8 @@
 from decimal import Decimal
 from typing import Tuple
 
+# https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise-intensity/art-20046887
+
 
 def calculate_heart_rate(
     age: int, reasting_heart_rate: int
