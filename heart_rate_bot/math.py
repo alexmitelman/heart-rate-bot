@@ -1,5 +1,9 @@
+import os
 from decimal import Decimal
 from typing import Tuple
+
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 # https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise-intensity/art-20046887
 
